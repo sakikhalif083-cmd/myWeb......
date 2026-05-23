@@ -1,0 +1,49 @@
+/* Main container css */
+.cont{
+    width: 500px;
+    border: 2px double salmon;
+    padding: 15px;
+    border-radius: 10px;
+    height: 150px;
+    overflow: auto;
+}
+/* Header Css part */
+header{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+/* Content css */
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+/* Content image Css */
+.content img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 2px solid steelblue;
+    border-radius: 15px;
+}
+/* Box 1 css without Box-sizing */
+.box1{
+    margin-top: 15px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(201, 119, 11);
+}
+/* Box2 with Box-sizing... */
+.box2{
+    margin-top: 15px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(122, 11, 201);
+    color: white;
+    box-sizing: border-box;
+
+}
